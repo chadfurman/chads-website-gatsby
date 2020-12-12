@@ -4,8 +4,8 @@ module.exports = {
       resolve: "gatsby-source-contentful",
       options: {
         accessToken:
-          "blueprints for 5rYv7FQUmzwU6CWtIEmEnRw1rKLdp__8CgBuPLtaRMQ",
-        spaceId: "",
+          "5rYv7FQUmzwU6CWtIEmEnRw1rKLdp__8CgBuPLtaRMQ",
+        spaceId: "q6ymxcnjfufs",
       },
     },
     "gatsby-plugin-sass",
@@ -15,10 +15,8 @@ module.exports = {
         trackingId: "G-HBRN8ECZ6C",
       },
     },
-    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
-    "gatsby-plugin-manifest",
     "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",

@@ -1,0 +1,14 @@
+.link {
+    font-size: 24pt;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.link--active {
+    text-decoration: underline;
+}
+
+.link--inactive {
+    text-decoration: none;
+}
