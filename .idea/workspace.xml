@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd01bad2-8718-431e-85c9-ed3982463cd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Background.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Background.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Link.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Link.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Logo.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Sidebar.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Background.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Background.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,6 +43,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stories/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/stories/Sidebar" />
     </key>
@@ -87,7 +80,7 @@
       <workItem from="1607389885301" duration="1466000" />
       <workItem from="1607535700435" duration="2494000" />
       <workItem from="1607650115124" duration="3171000" />
-      <workItem from="1607734114962" duration="2158000" />
+      <workItem from="1607734114962" duration="2971000" />
     </task>
     <servers />
   </component>

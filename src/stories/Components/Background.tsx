@@ -1,11 +1,17 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import backgroundImage from './background.png'
 
 const StyledBackground = styled.div`
-    background-image: ${props => props.image ? props.image :  };
+    background-image: url('${props => props.image}');
     background-position: bottom right;
-    background-size: ${props => (props.size ? props.size : 'cover')};
+    background-size: ${props => (props.size ? props.size : 'auto')};
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0e1317;
 `
 
 export const Background = ({image, size}) => {
