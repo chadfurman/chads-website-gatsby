@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { Logo } from './Logo'
+import { Logo as LogoComponent } from './Logo'
 
 export default {
   title: 'Components/Logo',
-  component: Logo,
+  component: LogoComponent,
   argTypes: {
     fontSize: { control: 'number'},
     color: { control: 'color'},
@@ -12,11 +12,6 @@ export default {
   },
 };
 
-const Template = (args) => <Logo {...args} />
+const Template = (args) => <LogoComponent {...args} />
 
-export const BigLogo = Template.bind({})
-BigLogo.args = {
-  fontSize: '48pt',
-  color: '#C7C7C7',
-
-}
+export const Logo = Template.bind({})

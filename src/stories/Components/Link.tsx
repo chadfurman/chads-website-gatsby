@@ -1,20 +1,22 @@
+import styled from 'styled-components'
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import './link.css';
+
+const StyledLink = styled.a`
+    font-size: 24pt;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 100;
+    text-decoration: ${ props => props.isActive ? 'underline' : 'none'};
+`
 
 /**
  * Primary UI component for user interaction
  */
-export const Link = ({ active, color, label, ...props }) => {
-  const mode = active ? 'link--active' : 'link--inactive';
+export const Link = ({ isActive=false, onClick=undefined, ...props }) => {
   return (
-    <a
-      className={['link', mode].join(' ')}
-      style={color && { color }}
-      {...props}
-    >
-      {label}
-    </a>
+    <StyledLink isActive={isActive} onClick={onClick}>
+      {props.children}
+    </StyledLink>
   );
 };
 
@@ -24,22 +26,7 @@ Link.propTypes = {
    */
   active: PropTypes.bool,
   /**
-   * What background color to use
-   */
-  color: PropTypes.string,
-  /**
-   * Button contents
-   */
-  label: PropTypes.string.isRequired,
-  /**
    * Optional click handler
    */
   onClick: PropTypes.func,
-};
-
-Link.defaultProps = {
-  color: null,
-  active: false,
-  label: 'Timothy',
-  onClick: undefined,
 };

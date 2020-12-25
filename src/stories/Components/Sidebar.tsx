@@ -1,26 +1,19 @@
 import * as React from 'react'
-import * as PropTypes from 'prop-types'
-import './sidebar.css'
+import styled from 'styled-components'
 import {Logo} from "./Logo";
-import {Link} from "./Link";
+import {PrimaryNavigation} from "./PrimaryNavigation";
 
+const StyledSidebar = styled.div`
+    background-color: ${props => props.backgroundColor};
+    opacity: ${props => props.opacity};
+    width: ${props => props.width};
+`
 
-export const Sidebar = ({ backgroundColor, opacity, width, ...props }) => {
-    const styles = {
-        backgroundColor: backgroundColor ? backgroundColor : '#FFFFFF',
-        opacity: opacity ? opacity : '.1',
-        width: width ? width : '100px'
-    }
+export const Sidebar = ({ backgroundColor='#FFFFFF', opacity='.1', width='100px', activePage='/' }) => {
     return (
-        <div
-            className='sidebar'
-            style={styles}
-        >
-            <Logo/>
-            <Link label={'Blog'}></Link>
-            <Link label={'Resume'}></Link>
-            <Link label={'Contact'}></Link>
-        </div>
-    )
+        <StyledSidebar backgroundColod={backgroundColor} opacity={opacity} width={width}>
+            <Logo />
+            <PrimaryNavigation activePage={activePage} />
+        </StyledSidebar>
+    );
 }
-
