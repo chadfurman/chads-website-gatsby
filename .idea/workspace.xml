@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd01bad2-8718-431e-85c9-ed3982463cd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stories/assets/background.png" afterDir="false" />
+    <list default="true" id="bd01bad2-8718-431e-85c9-ed3982463cd4" name="Default Changelist" comment="chore: continued adding new components">
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/Container/Container.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/Container/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageBody.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageBody.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageContent.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageHeader.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PrimaryNavigation.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Components/PrimaryNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Pages/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Background.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Background.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Link.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Link.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Logo.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Logo.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Sidebar.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Sidebar.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Container/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/link.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/logo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +58,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lLws8dReKDg3nOjPPYSf3BZnov" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../active/jgi-blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Less" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -47,6 +86,7 @@
       <recent name="$PROJECT_DIR$/src/stories/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stories/Components/Container" />
       <recent name="$PROJECT_DIR$/src/stories/Sidebar" />
     </key>
   </component>
@@ -81,6 +121,10 @@
       <workItem from="1607535700435" duration="2494000" />
       <workItem from="1607650115124" duration="3171000" />
       <workItem from="1607734114962" duration="2971000" />
+      <workItem from="1607796903922" duration="1289000" />
+      <workItem from="1607989196121" duration="9553000" />
+      <workItem from="1608135657421" duration="5034000" />
+      <workItem from="1608846962734" duration="8115000" />
     </task>
     <servers />
   </component>
@@ -98,6 +142,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="chore: continued adding new components" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: continued adding new components" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
