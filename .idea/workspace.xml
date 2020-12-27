@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd01bad2-8718-431e-85c9-ed3982463cd4" name="Default Changelist" comment="chore: continued adding new components">
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Container/Container.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/Container/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageBody.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageBody.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageContent.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageContent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageHeader.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PageHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PrimaryNavigation.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Components/PrimaryNavigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Pages/HomePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="bd01bad2-8718-431e-85c9-ed3982463cd4" name="Default Changelist" comment="feat: init gatsby+tailwind responsive layout">
+      <change afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BlogPost/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Job/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Page/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/email.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/experience.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/new-blog-gatsby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new-blog-gatsby.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Background.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Link.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Link.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Link.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Logo.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Logo.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Sidebar.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Sidebar.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Components/Container/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/link.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/logo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Components/sidebar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,29 +57,45 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../active/jgi-blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/public/static" />
       <recent name="$PROJECT_DIR$/src/stories/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/stories/Components/Container" />
-      <recent name="$PROJECT_DIR$/src/stories/Sidebar" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/pages/blog.tsx" />
+      <recent name="$PROJECT_DIR$/src/pages/Home" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages/Components/Page" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.develop">
     <configuration default="true" type="js.build_tools.npm" singleton="false">
       <command value="run" />
       <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="develop" type="js.build_tools.npm" singleton="false" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
@@ -108,6 +110,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.storybook" />
+      <item itemvalue="npm.develop" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -124,8 +130,31 @@
       <workItem from="1607796903922" duration="1289000" />
       <workItem from="1607989196121" duration="9553000" />
       <workItem from="1608135657421" duration="5034000" />
-      <workItem from="1608846962734" duration="8115000" />
+      <workItem from="1608846962734" duration="19835000" />
+      <workItem from="1608988315621" duration="21202000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: continued adding new components">
+      <created>1608924079582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608924079582</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: project files added, including new dependencies">
+      <created>1608924159326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608924159326</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: began working on full static html site (no styles yet)">
+      <created>1608924197218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608924197218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +175,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="chore: continued adding new components" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: continued adding new components" />
+    <MESSAGE value="chore: project files added, including new dependencies" />
+    <MESSAGE value="feat: began working on full static html site (no styles yet)" />
+    <MESSAGE value="feat: init gatsby+tailwind responsive layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: init gatsby+tailwind responsive layout" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

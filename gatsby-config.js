@@ -8,7 +8,7 @@ module.exports = {
         spaceId: "q6ymxcnjfufs",
       },
     },
-    "gatsby-plugin-sass",
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
