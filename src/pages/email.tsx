@@ -9,7 +9,9 @@ const EmailPage = () => {
             <Sidebar/>
             <Page headerText='EMAIL'>
                 <section className="flex flex-col">
-                    <form className="flex flex-col">
+                    <form className="flex flex-col" name="blog-contact" data-netlify="true" data-netlify-honeypot="bot-field" method="post">
+
+                        <input type="hidden" name="form-name" value="blog-contact" />
                         <fieldset className="flex flex-col sm:flex-row py-5 sm:py-10 border-b-2 border-pond-light">
                             <label className="w-24 mb-2" htmlFor="email">From:</label>
                             <input className="w-full md:w-96 mx-auto outline-pond-light" type="email" id="email" name="email" placeholder="you@email.com"/>
