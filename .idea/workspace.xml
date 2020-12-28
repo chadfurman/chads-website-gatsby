@@ -5,27 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd01bad2-8718-431e-85c9-ed3982463cd4" name="Default Changelist" comment="feat: init gatsby+tailwind responsive layout">
-      <change afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BlogPost/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Job/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Page/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/blog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/email.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/experience.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/post.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/new-blog-gatsby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new-blog-gatsby.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/post.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlogPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogPost/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Job/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Job/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/email.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/email.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/post.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Container/Container.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Container/Container.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Container/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Link.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Link.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Logo.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Logo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PageBody.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PageBody.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PageContent.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PageContent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PageHeader.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PageHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PrimaryNavigation.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/PrimaryNavigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Sidebar.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Components/Sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +74,7 @@
     <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.GraphQL" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -75,11 +85,11 @@
       <recent name="$PROJECT_DIR$/src/stories/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/templates" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/pages/blog.tsx" />
       <recent name="$PROJECT_DIR$/src/pages/Home" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/pages/Components/Page" />
     </key>
   </component>
   <component name="RunManager" selected="npm.develop">
@@ -131,7 +141,8 @@
       <workItem from="1607989196121" duration="9553000" />
       <workItem from="1608135657421" duration="5034000" />
       <workItem from="1608846962734" duration="19835000" />
-      <workItem from="1608988315621" duration="21202000" />
+      <workItem from="1608988315621" duration="21272000" />
+      <workItem from="1609030948693" duration="9086000" />
     </task>
     <task id="LOCAL-00001" summary="chore: continued adding new components">
       <created>1608924079582</created>
@@ -154,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608924197218</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: init gatsby+tailwind responsive layout">
+      <created>1609027490679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609027490679</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

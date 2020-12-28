@@ -9,10 +9,9 @@ const EmailPage = () => {
             <Sidebar/>
             <Page headerText='EMAIL'>
                 <section className="flex flex-col">
-                    <header className="mx-auto text-3xl">Contact</header>
                     <form className="flex flex-col">
                         <fieldset className="flex flex-col sm:flex-row py-5 sm:py-10 border-b-2 border-pond-light">
-                            <label className="w-24 mb-2" htmlFor="email">Email:</label>
+                            <label className="w-24 mb-2" htmlFor="email">From:</label>
                             <input className="w-full md:w-96 mx-auto outline-pond-light" type="email" id="email" name="email" placeholder="you@email.com"/>
                         </fieldset>
                         <fieldset className="flex flex-col sm:flex-row py-5 sm:py-10 border-b-2 border-pond-light">

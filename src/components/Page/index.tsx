@@ -6,9 +6,30 @@ export interface PageProps {
 }
 
 const Page = ({headerText, ...props}: PageProps) => {
-    const header = <header className="flex text-right text-2xl mt-10 mr-10 w-full hidden sm:block">{headerText}</header>
+    const header = <header className="flex text-right text-2xl md:my-5 mr-10 w-full hidden sm:block">{headerText}</header>
     return (
-        <main className="flex bg-blur border-0 md:border-2 border-opacity-25 border-gray-500 flex-grow flex-col px-5 sm:px-20 relative bg-pond bg-opacity-80 text-shadow text-gray-500 mt-10 sm:m-10 backdrop-blur md:max-w-3xl">
+        <main className="
+        relative
+        flex
+        flex-grow
+        flex-col
+        bg-blur
+        backdrop-blur
+        border-0
+        border-opacity-25
+        border-gray-500
+        bg-pond
+        bg-opacity-80
+        text-shadow
+        text-gray-500
+        mt-5
+        sm:ml-40
+        sm:px-10
+        md:border-2
+        md:px-20
+        md:ml-52
+        md:m-10
+        md:max-w-3xl">
             { headerText ? header : null }
             { props.children }
         </main>

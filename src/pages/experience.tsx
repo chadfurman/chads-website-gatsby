@@ -17,6 +17,11 @@ const ExpPage = () => {
                             JavaScript (<i>Expert</i>), <wbr/>Node (<i>Expert</i>), <wbr/>Python (<i>Competent</i>)
                         </section>
                     </section>
+                    <Job company="KLAVIYO" startDateTime="2021-01">
+                        <li>E-Commerce development with Python / Django</li>
+                        <li>Scaling to 1-3 billion HTTP requests daily</li>
+                        <li>Caching with RabbitMQ</li>
+                    </Job>
                     <Job company="CLEVERTECH" startDateTime="2015-07" endDateTime="2020-12" >
                         <li>Created Enterprise Web Applications in Full-Stack JavaScript</li>
                         <li>Trained teams of senior engineers</li>

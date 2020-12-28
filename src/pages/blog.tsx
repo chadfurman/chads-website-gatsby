@@ -3,24 +3,45 @@ import Page from "../components/Page";
 import Sidebar from "../components/Sidebar";
 import Layout from "../components/Layout";
 import BlogPost from "../components/BlogPost";
+import {graphql} from "gatsby";
 
-const BlogPage = () => {
+const BlogPage = ({data}) => {
+    const posts = data.allContentfulBlogPost.edges
     return (
         <Layout>
             <Sidebar/>
             <Page headerText='BLOG'>
-                <BlogPost postTitle='Post Title' postDate='2020/12/24'>
-                    This is text of a post. It only goes so far. After a little bit the text will get cut off. Until that point I will misspell works and typos and such because I can and I’m lazy. This...
-                </BlogPost>
-                <BlogPost postTitle='Post Title' postDate='2020/12/24'>
-                    This is text of a post. It only goes so far. After a little bit the text will get cut off. Until that point I will misspell works and typos and such because I can and I’m lazy. This...
-                </BlogPost>
-                <BlogPost postTitle='Post Title' postDate='2020/12/24'>
-                    This is text of a post. It only goes so far. After a little bit the text will get cut off. Until that point I will misspell works and typos and such because I can and I’m lazy. This...
-                </BlogPost>
+                { posts.map((p) => {
+                    return (
+                        <BlogPost postTitle={p.node.title} postDate={p.node.createdAt} postSlug={p.node.slug} key={p.node.contentful_id} >
+                            {p.node.body.childMarkdownRemark.excerpt}
+                        </BlogPost>
+                    )
+                })}
             </Page>
         </Layout>
     )
 }
 
+
+export const query = graphql`
+    query AllBlogPost {
+        allContentfulBlogPost {
+            edges {
+                node {
+                    contentful_id
+                    title
+                    slug
+                    createdAt
+                    body {
+                        childMarkdownRemark {
+                            id
+                            excerpt
+                        }
+                    }
+                }
+            }
+        }
+    }
+`
 export default BlogPage
