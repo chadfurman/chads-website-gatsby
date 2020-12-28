@@ -20,7 +20,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: () => ({
-        'lotus': "url('/static/lotus.png')"
+        'lotus': "url('/images/lotus.png')"
       }),
       maxWidth: {
         'xxs': '10rem'
