@@ -21,7 +21,7 @@ const Page = ({headerText, ...props}: PageProps) => {
         bg-pond
         bg-opacity-80
         text-shadow
-        text-gray-500
+        text-gray-200
         mt-5
         sm:ml-40
         sm:px-10

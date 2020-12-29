@@ -33,6 +33,9 @@ module.exports = {
         },
         gray: colors.coolGray,
       },
+      boxShadow: {
+        "neumorphic": "20px 20px 40px #000000, -20px -20px 40px #192229"
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-10deg)' },
